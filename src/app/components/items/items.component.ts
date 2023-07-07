@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Item } from 'src/app/models/item';
 
 @Component({
   selector: 'app-items',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./items.component.css']
 })
 export class ItemsComponent {
+
+  items: Item[] = [];
 
 }
